@@ -62,3 +62,16 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+/* HERO SECTION */
+.hero {
+  /* Container element */
+  max-width: 130rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.hero-img {
+  width: 100%;
+}
