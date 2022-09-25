@@ -1,3 +1,45 @@
+/*========================================================
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+
+- Line heights
+Default: 1
+
+
+--- 02 COLORS
+
+- Primary color: #e67e22
+- Tints:
+- Shades: 
+- Accents:
+- Greys:  
+
+
+--- 03 IMAGES
+
+- Unsplash.com
+- UIFaces.co
+
+
+--- 04 SHADOWS
+
+--- 05 BORDER-RADIUS
+
+
+--- 06 WHITESPACE
+
+- Spacing system
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+===========================================================*/
+
 /* GLOBAL RESET */
 *,
 *::before,
@@ -5,4 +47,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* BODY STYLES */
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
 }
