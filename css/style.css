@@ -162,6 +162,10 @@ body {
   font-weight: 900;
   color: #333;
 }
+
+.logo-text span {
+  color: var(--primary-color);
+}
 /* Navigation */
 .main-nav-list {
   list-style: none;
