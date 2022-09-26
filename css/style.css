@@ -148,11 +148,23 @@ HERO SECTION
   /* Adding the border inisde the button */
   box-shadow: inset 0 0 0 3px #fff;
 }
+/* Image styling */
 
-.hero-img {
+.hero-img-box {
+  background: linear-gradient(#22c55e, transparent);
   width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  position: relative;
+}
+.hero-image {
+  width: 150%;
+  position: absolute;
+  bottom: -5%;
+  left: -20%;
 }
 
+/* Utility classes */
 .margin-right-sm {
   /* Helper class */
   margin-right: 1.6rem !important;
