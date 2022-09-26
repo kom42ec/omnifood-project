@@ -204,8 +204,8 @@ body {
 
 .section-hero {
   background-color: var(--tint-color);
-  padding-top: 4.8rem;
-  padding-bottom: 9.6rem; /* Adding top and bottom padding */
+  padding-top: 9.6rem;
+  padding-bottom: 12.8rem; /* Adding top and bottom padding */
 }
 .hero {
   /* Container element */
