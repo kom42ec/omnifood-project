@@ -131,17 +131,31 @@ body {
   /* Helper class */
   margin-right: 1.6rem !important;
 }
+
+/* Container */
+
 /*******************************************/
 /* HEADER */
 /********************************************/
-
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--tint-color);
+  height: 9.6rem; /* Adding height because we want to make the header sticky later */
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+}
+.logo {
+  height: 2.2rem;
+}
 /*******************************************/
 /* HERO SECTION */
 /********************************************/
 
 .section-hero {
   background-color: var(--tint-color);
-  padding-top: 9.6rem;
+  padding-top: 4.8rem;
   padding-bottom: 9.6rem; /* Adding top and bottom padding */
 }
 .hero {
@@ -149,6 +163,8 @@ body {
   max-width: 130rem;
   margin-left: auto;
   margin-right: auto; /* Centering the content */
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 9.6rem; /* Gap between the elements inside section */
@@ -171,10 +187,10 @@ body {
   position: relative;
 }
 .hero-image {
-  width: 150%;
+  width: 160%;
   position: absolute;
   bottom: -5%;
-  left: -20%;
+  left: -25%;
 }
 
 /* Deliverede meals component */
