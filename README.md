@@ -28,6 +28,14 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ## Built with
 
+- Semantic HTML5 markup
+- CSS3
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Desktop-first workflow
+- JavaScript
+
 ## What I learned
 
 1. Trick to add a border inside a button element without using the border property:
@@ -45,5 +53,7 @@ Here I am not gonna follow the course and build the exact same website as the in
 ## Useful resources
 
 ## Author
+
+- Twitter - [@kom42ec](https://twitter.com/kom42ec)
 
 ## Acknowledgements
