@@ -30,6 +30,14 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ## What I learned
 
+- Trick to add a "border" inside the button element with box-shadow property:
+
+```
+.btn {
+   box-shadow: inset 0 0 0 3px #fff; }
+ }
+```
+
 ## Continued development
 
 ## Suggestions
