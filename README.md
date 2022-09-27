@@ -46,6 +46,15 @@ Here I am not gonna follow the course and build the exact same website as the in
  }
 ```
 
+2. How to apply the same grayish color to different logo images without Photoshop.
+
+```
+.logos img {
+    filter: brightness(0); /* Make logos completely black */
+    opacity: 50%; /* Make logos translucent so they appear grayish */
+}
+```
+
 ## Continued development
 
 ## Suggestions
