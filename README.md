@@ -30,7 +30,7 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ## What I learned
 
-- Trick to add a "border" inside the button element with box-shadow property:
+1. Trick to add a border inside a button element without using the border property:
 
 ```
 .btn {
