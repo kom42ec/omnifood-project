@@ -309,7 +309,7 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   position: absolute;
-
+  animation: scaleUp 2s ease-in-out infinite;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .cook {
@@ -378,9 +378,9 @@ body {
 }
 
 .logos img {
-  height: 3rem;
+  height: 2.8rem;
   filter: brightness(0);
-  opacity: 50%;
+  opacity: 40%;
 }
 
 /*******************************************/
@@ -393,4 +393,17 @@ body {
 
 .step-img {
   width: 50%;
+}
+
+/* Keyframes */
+
+@keyframes scaleUp {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-5px) scale(1.05);
+  }
 }
