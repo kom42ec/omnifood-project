@@ -96,7 +96,7 @@ body {
 
 .container {
   /* 1136px wide */
-  max-width: 120rem;
+  max-width: 130rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }
@@ -263,8 +263,8 @@ body {
 
 .section-hero {
   background-color: var(--tint-color);
-  padding-top: 9.6rem;
-  padding-bottom: 12.8rem; /* Adding top and bottom padding */
+  padding-top: 8rem;
+  padding-bottom: 9.6rem; /* Adding top and bottom padding */
 }
 .hero {
   /* Container element */
@@ -367,17 +367,18 @@ body {
   letter-spacing: 0.75px;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 2.4rem;
+
   color: #888;
 }
 
 .logos {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logos img {
-  height: 3.2rem;
+  height: 3rem;
   filter: brightness(0);
   opacity: 50%;
 }
