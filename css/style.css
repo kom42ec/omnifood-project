@@ -247,6 +247,12 @@ Default: 9px
 /* HOW IT WORKS */
 /********************************************/
 
+.step-text-box {
+  background-color: var(--tint-color);
+  background: linear-gradient(#22c55e, transparent);
+  border-radius: 9px;
+  padding: 3.2rem;
+}
 .section-how {
   padding: 9.6rem 0;
 }
@@ -254,9 +260,16 @@ Default: 9px
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
-  color: var(--light-gray);
-  color: #e5e7eb;
+  color: #fff;
+  /* color: #e5e7eb; */
+  animation: scaleUp 2s ease-in-out infinite;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
 }
 .step-img {
   width: 50%;

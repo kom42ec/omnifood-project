@@ -118,7 +118,8 @@ body {
 /* HEADINGS */
 
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   font-weight: 700;
   color: var(--dark-gray);
   letter-spacing: -0.5px;
@@ -137,6 +138,9 @@ body {
 }
 
 .heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
 .subheading {
