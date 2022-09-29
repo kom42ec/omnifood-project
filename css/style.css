@@ -294,10 +294,20 @@ Big: 18px
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  background-color: var(--primary-color);
   color: var(--dark-gray);
   border-radius: 9px;
   font-weight: 500;
+}
+
+.tag--vegetarian {
+  background-color: var(--primary-color);
+}
+.tag--vegan {
+  background-color: #84cc16;
+}
+
+.tag--paleo {
+  background-color: #fde047;
 }
 
 .meal {
