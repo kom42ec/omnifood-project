@@ -46,7 +46,7 @@ Here I am not gonna follow the course and build the exact same website as the in
  }
 ```
 
-2. How to apply the same grayish color to different logo images without Photoshop.
+2. How to apply the same grayish color to different logo images without editing images in Photoshop.
 
 ```
 .logos img {
