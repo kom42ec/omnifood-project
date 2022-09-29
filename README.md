@@ -55,6 +55,15 @@ Here I am not gonna follow the course and build the exact same website as the in
 }
 ```
 
+3. How to create a border radius on a card when there is an image on top, without adding the border-radius property on the image.
+
+```
+.card {
+  border-radius: 11px;
+  overflow: hidden; <--- this is the trick
+}
+```
+
 ## Continued development
 
 ## Suggestions
