@@ -50,8 +50,8 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ```
 .logos img {
-    filter: brightness(0); /* Make logos completely black */
-    opacity: 50%; /* Make logos translucent so they appear grayish */
+    filter: brightness(0); <--- Make logos completely black
+    opacity: 50%; <--- Make logos translucent so they appear grayish
 }
 ```
 
@@ -60,7 +60,7 @@ Here I am not gonna follow the course and build the exact same website as the in
 ```
 .card {
   border-radius: 11px;
-  overflow: hidden; <--- this is the trick
+  overflow: hidden; <--- This is the trick
 }
 ```
 

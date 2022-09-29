@@ -287,6 +287,8 @@ Big: 18px
 
 .meal-tags {
   margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
 }
 
 .tag {
