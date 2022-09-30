@@ -64,6 +64,15 @@ Here I am not gonna follow the course and build the exact same website as the in
 }
 ```
 
+4. Using the _currentColor_ variable to set the border-color value.
+
+```
+.link:link, .link:visited {
+  color: #22c55e;
+  border-bottom: 1px solid currentColor;
+}
+```
+
 ## Continued development
 
 ## Suggestions
@@ -75,3 +84,7 @@ Here I am not gonna follow the course and build the exact same website as the in
 - Twitter - [@kom42ec](https://twitter.com/kom42ec)
 
 ## Acknowledgements
+
+```
+
+```
