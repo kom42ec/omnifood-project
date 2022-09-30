@@ -370,6 +370,11 @@ Big: 18px
   color: var(--primary-color);
 }
 
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
 /*******************************************/
 /* KEYFRAMES */
 /********************************************/
