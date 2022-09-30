@@ -322,6 +322,22 @@ Big: 18px
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 .list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
 }
 
 .meal-img {
