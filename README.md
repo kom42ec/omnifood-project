@@ -38,7 +38,7 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ## What I learned
 
-1. Trick to add a border inside a button element without using the border property:
+1. Trick to add a border inside a button element without using the border property.
 
 ```
 .btn {
@@ -71,6 +71,13 @@ Here I am not gonna follow the course and build the exact same website as the in
   color: #22c55e;
   border-bottom: 1px solid currentColor;
 }
+```
+
+5. Scale the image on hover without overflowing the container.
+
+```
+.gallery-item { overflow: hidden; <--- no overflow}
+.gallery-item img:hover { transform: scale(1.1); }
 ```
 
 ## Continued development
