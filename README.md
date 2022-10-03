@@ -26,6 +26,9 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ## Links
 
+- New design: [Omnifood-New](https://kom42ec.github.io/omnifood-project/) 
+- Old design: [Omnifood-Old](https://omnifood-kom42ec.netlify.app/)
+
 ## Built with
 
 - Semantic HTML5 markup
