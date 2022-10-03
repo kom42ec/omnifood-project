@@ -92,6 +92,3 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ## Acknowledgements
 
-```
-
-```
