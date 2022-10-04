@@ -85,6 +85,8 @@ Here I am not gonna follow the course and build the exact same website as the in
 
 ## Continued development
 
+- ***Meals section:*** Create more meals and make each diet a button. When a user clicks on a diet he gets the meals that are associated with the chosen diet. 
+
 ## Suggestions
 
 ## Useful resources
