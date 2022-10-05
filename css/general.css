@@ -102,7 +102,12 @@ body {
 }
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem; /* To have multiple grids in the same section */
 }
 
 .grid--2--cols {
