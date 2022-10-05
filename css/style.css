@@ -506,6 +506,12 @@ Big: 18px
   text-decoration: line-through;
 }
 
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
 /* Features */
 
 .feature-icon {
