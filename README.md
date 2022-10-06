@@ -89,6 +89,15 @@ Here I am not gonna follow the course and build the exact same website as the in
 <div class="image-box" role="img" aria-label="image label"></div>
 ```
 
+7. How to change a focus state for all elements.
+
+```
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px rgba(167, 232, 191, 0.6);
+}
+```
+
 ## Continued development
 
 - **_Meals section:_** Create more meals and make each diet a button. When a user clicks on a diet he gets the meals that are associated with the chosen diet.
