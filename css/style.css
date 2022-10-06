@@ -553,9 +553,24 @@ Big: 18px
   border-radius: 11px;
 
   background: linear-gradient(to right bottom, #1fb155, #22c55e);
-
+  overflow: hidden;
   /* temp */
   height: 500px;
+}
+
+.cta-text-box {
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(31, 177, 85, 0.3),
+      rgba(34, 197, 94, 0.3)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*******************************************/
