@@ -83,6 +83,12 @@ Here I am not gonna follow the course and build the exact same website as the in
 .gallery-item img:hover { transform: scale(1.1); }
 ```
 
+6. When adding a background image in CSS we should indicate that in HTML as well. We do that with _role_ & _aria-label_ attributes, like this:
+
+```
+<div class="image-box" role="img" aria-label="image label"></div>
+```
+
 ## Continued development
 
 - **_Meals section:_** Create more meals and make each diet a button. When a user clicks on a diet he gets the meals that are associated with the chosen diet.
