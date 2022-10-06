@@ -571,6 +571,7 @@ Big: 18px
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
+  margin-bottom: 4.8rem;
 }
 
 .cta-img-box {
@@ -583,6 +584,14 @@ Big: 18px
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* Form */
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
 
 /*******************************************/
