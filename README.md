@@ -111,7 +111,3 @@ Here I am not gonna follow the course and build the exact same website as the in
 - Twitter - [@kom42ec](https://twitter.com/kom42ec)
 
 ## Acknowledgements
-
-```
-
-```
