@@ -262,8 +262,8 @@ Big: 18px
   font-size: 8.6rem;
   font-weight: 600;
   color: #fff;
-
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: #d3f3df;
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
   margin-bottom: 1.2rem;
 }
 
@@ -344,7 +344,7 @@ Big: 18px
 }
 
 .meal {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); */
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
@@ -352,7 +352,7 @@ Big: 18px
 
 .meal:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  /* box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); */
 }
 .meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
@@ -391,6 +391,37 @@ Big: 18px
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;
+}
+
+.diets {
+  order: -1;
+}
+
+.meal-scroll {
+}
+
+.meal-columns {
+  grid-auto-flow: column;
+  grid-auto-columns: 30%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.meal-columns::-webkit-scrollbar {
+  height: 12px;
+}
+
+.meal-columns::-webkit-scrollbar-thumb,
+.meal-columns::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.meal-columns::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+.meal-columns::-webkit-scrollbar-track {
+  background: var(--tint-color);
 }
 
 /*******************************************/
