@@ -276,6 +276,32 @@ Big: 18px
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.step-img-box::before {
+  width: 60%;
+  /* height: 60%; <-- doesn't work */
+  padding-bottom: 60%; /* 60% of parent's width */
+  background-color: var(--tint-color);
+  z-index: -2;
+}
+.step-img-box::after {
+  width: 45%;
+  /* height: 60%; <-- doesn't work */
+  padding-bottom: 45%; /* 60% of parent's width */
+  background-color: #d3f3df;
+  z-index: -1;
 }
 .step-img {
   width: 35%;
