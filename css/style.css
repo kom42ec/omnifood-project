@@ -348,10 +348,12 @@ Big: 18px
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
+
+  background-color: var(--tint-color);
 }
 
 .meal:hover {
-  transform: translateY(-1.2rem);
+  transform: translateY(1.2rem);
   /* box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); */
 }
 .meal-content {
@@ -397,14 +399,20 @@ Big: 18px
   order: -1;
 }
 
-.meal-scroll {
+.meal-grid {
+  display: grid;
+  column-gap: 6.4rem;
+  grid-template-columns: 3fr 9fr;
 }
 
 .meal-columns {
+  display: grid;
+  grid-column-gap: 4.8rem;
   grid-auto-flow: column;
-  grid-auto-columns: 30%;
+  grid-auto-columns: 40%;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
+  padding: 0 0 4.8rem 0;
 }
 
 .meal-columns::-webkit-scrollbar {
@@ -417,7 +425,7 @@ Big: 18px
 }
 
 .meal-columns::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  background: linear-gradient(90deg, #1fb155, #22c55e);
 }
 
 .meal-columns::-webkit-scrollbar-track {
