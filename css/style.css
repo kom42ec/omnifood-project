@@ -254,6 +254,10 @@ Big: 18px
   padding: 9.6rem 0;
 }
 
+.step-text-box {
+  align-self: center;
+}
+
 .step-number {
   font-size: 8.6rem;
   font-weight: 600;
@@ -266,6 +270,12 @@ Big: 18px
 .step-description {
   font-size: 1.8rem;
   line-height: 1.6;
+}
+
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .step-img {
   width: 35%;
