@@ -710,6 +710,33 @@ Big: 18px
   padding: 9.6rem 0;
 }
 
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  color: var(--dark-gray);
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--light-gray);
+  transition: all 0.3;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  color: var(--dark-gray);
+}
+
 /*******************************************/
 /* KEYFRAMES */
 /********************************************/
