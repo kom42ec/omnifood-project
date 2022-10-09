@@ -164,6 +164,10 @@ body {
   letter-spacing: 0.75px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Buttons styling */
 
 .btn,
