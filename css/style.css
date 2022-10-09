@@ -745,6 +745,20 @@ Big: 18px
   margin-top: auto;
 }
 
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.contacts > p:first-child {
+  margin-bottom: 2.4rem;
+}
+
+.contacts p a {
+  color: var(--shade-color);
+}
+
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
