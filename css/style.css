@@ -734,6 +734,17 @@ Big: 18px
   color: var(--primary-color);
 }
 
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: auto;
+}
+
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
