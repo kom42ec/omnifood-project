@@ -90,7 +90,7 @@ Big: 18px
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -409,7 +409,7 @@ Big: 18px
   display: grid;
   grid-column-gap: 4.8rem;
   grid-auto-flow: column;
-  grid-auto-columns: 40%;
+  grid-auto-columns: 46%;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   padding: 0 0 4.8rem 0;
