@@ -89,6 +89,8 @@ body {
   line-height: 1;
   font-weight: 400;
   color: var(--light-gray);
+
+  overflow-x: hidden;
 }
 
 /*******************************************/

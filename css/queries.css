@@ -211,11 +211,12 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    transform: translateX(100%);
 
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in;
 
     /* Hide nav visually */
     opacity: 0;
@@ -231,6 +232,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0%);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
