@@ -215,6 +215,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
+
+    /* Hide nav visually */
+    opacity: 0;
+
+    /* Make it unaccesible to mouse and keyboard */
+    pointer-events: none;
+
+    /* Hide it from screen readers*/
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
   }
 
   .main-nav-list {
