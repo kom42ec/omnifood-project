@@ -152,17 +152,12 @@ Big: 18px
 /* Hero image styling */
 
 .hero-img-box {
-  background: linear-gradient(#22c55e, transparent);
+  /* background: linear-gradient(#22c55e, transparent); */
   width: 100%;
-  height: 100%;
-  border-radius: 18px;
-  position: relative;
+  /* height: 100%; */
 }
-.hero-image {
-  width: 160%;
-  position: absolute;
-  bottom: -5%;
-  left: -25%;
+.hero-img {
+  width: 100%;
 }
 
 .small-text {

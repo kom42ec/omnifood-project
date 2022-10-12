@@ -66,7 +66,7 @@
   }
 
   .step-number {
-    font-size: 6rem;
+    font-size: 7.4rem;
   }
 }
 
@@ -92,5 +92,85 @@
 
   .cta {
     grid-template-columns: 5fr 3fr;
+  }
+}
+
+/*******************************************/
+/* BELOW 944px (Tablets) */
+/********************************************/
+@media (max-width: 59em) {
+  html {
+    /* 8 / 16 */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text-box {
+    padding: 2.4rem 8rem 0rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .hero-img {
+    width: 60%;
+  }
+
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 4.4rem;
+  }
+
+  .logos img {
+    font-size: 2rem;
+    height: 2rem;
+  }
+
+  .pricing-plan {
+    width: 95%;
+  }
+
+  .feature {
+    text-align: center;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 60fr 45fr;
+  }
+  .testimonials-container {
+    padding: 3.2rem 2.4rem;
+  }
+
+  .testimonials-container .heading-secondary {
+    margin-bottom: 4.8rem;
+  }
+
+  .diets {
+    display: none;
+  }
+
+  .meal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .meal-columns {
+    grid-auto-columns: 45%;
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+  .cta-form button {
+    margin-top: 1.2rem;
   }
 }
