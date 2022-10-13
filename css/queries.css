@@ -253,3 +253,44 @@
     font-size: 3rem;
   }
 }
+
+/*******************************************/
+/* BELOW 688px (Smaller Tablets) */
+/********************************************/
+
+@media (max-width: 43em) {
+  .grid--5--cols {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .nav-col {
+    grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
+  }
+
+  .logo-col {
+    grid-column: span 3;
+  }
+
+  .address-col {
+    grid-column: span 3;
+  }
+
+  .logos img {
+    font-size: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .hero-text-box {
+    padding: 0 4rem;
+  }
+
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .meal-columns {
+    grid-auto-columns: 95%;
+  }
+}
