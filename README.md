@@ -116,6 +116,10 @@ element {
 
 ## Useful resources
 
+- Scrolling Card Component
+
+I have used this [article](https://webdesign.tutsplus.com/tutorials/horizontal-scrolling-card-ui-flexbox-and-css-grid--cms-41922) to learn how to create the scrolling card component with CSS grid for the "Meals" section.
+
 ## Author
 
 - Twitter - [@kom42ec](https://twitter.com/kom42ec)
