@@ -98,6 +98,16 @@ Here I am not gonna follow the course and build the exact same website as the in
 }
 ```
 
+8. How to hide an element visually without using the display: none; declaration.
+
+```
+element {
+  opacity: 0; <--- Hide element visually
+  pointer-events: none; <--- Make element unaccesible to mouse and keyboard
+  visibility: hidden; <--- Hide element from screen readers
+}
+```
+
 ## Continued development
 
 - **_Meals section:_** Create more meals and make each diet a button. When a user clicks on a diet he gets the meals that are associated with the chosen diet.
