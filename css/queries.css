@@ -358,12 +358,32 @@
     padding: 2.4rem 1.6rem;
   }
 
-  .hero-img {
-    width: 80%;
-  }
-
   .hero {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
+  }
+
+  .food-img {
+    position: absolute;
+    width: 50%;
+    display: block;
+  }
+
+  .food-one {
+    top: 25%;
+    left: 0%;
+    animation: scaleUp 3s ease-in-out infinite;
+  }
+
+  .food-two {
+    top: 0%;
+    right: 10%;
+    animation: scaleUp 2s ease-in-out infinite;
+  }
+
+  .food-three {
+    bottom: 1%;
+    right: 5%;
+    animation: scaleUp 4s ease-in-out infinite;
   }
 }

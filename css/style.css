@@ -171,6 +171,8 @@ Big: 18px
 
 .hero-img-box {
   position: relative;
+
+  padding-top: 100%;
 }
 
 .food-img {
