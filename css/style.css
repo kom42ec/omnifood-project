@@ -158,7 +158,7 @@ Big: 18px
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 9.6rem; /* Gap between the elements inside section */
-  align-items: center; /* Pushing elements in the middle of the section */
+  /* align-items: center; Pushing elements in the middle of the section */
 }
 
 .hero-description {
@@ -170,12 +170,31 @@ Big: 18px
 /* Hero image styling */
 
 .hero-img-box {
-  /* background: linear-gradient(#22c55e, transparent); */
-  width: 100%;
-  /* height: 100%; */
+  position: relative;
 }
-.hero-img {
-  width: 100%;
+
+.food-img {
+  position: absolute;
+  width: 50%;
+  display: block;
+}
+
+.food-one {
+  top: 25%;
+  left: 5%;
+  animation: scaleUp 3s ease-in-out infinite;
+}
+
+.food-two {
+  top: -4%;
+  right: 4%;
+  animation: scaleUp 2s ease-in-out infinite;
+}
+
+.food-three {
+  bottom: -2%;
+  right: 0%;
+  animation: scaleUp 4s ease-in-out infinite;
 }
 
 .small-text {
