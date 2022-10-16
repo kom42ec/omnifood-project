@@ -93,6 +93,11 @@
   .cta {
     grid-template-columns: 5fr 3fr;
   }
+
+  .diet-list {
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: start;
+  }
 }
 
 /*******************************************/
@@ -147,10 +152,6 @@
 
   .testimonials-container .heading-secondary {
     margin-bottom: 4.8rem;
-  }
-
-  .diets {
-    display: none;
   }
 
   .meal-grid {
