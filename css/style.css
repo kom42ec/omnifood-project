@@ -440,7 +440,7 @@ Big: 18px
   display: grid;
   grid-column-gap: 4.8rem;
   grid-auto-flow: column;
-  grid-auto-columns: 46%;
+  grid-auto-columns: calc(calc(100% / 3) - 3.3rem);
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   padding: 0 0 4.8rem 0;
