@@ -253,6 +253,10 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  .diet-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /*******************************************/
@@ -386,5 +390,18 @@
     bottom: 1%;
     right: 5%;
     animation: scaleUp 4s ease-in-out infinite;
+  }
+
+  .diet-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 22.5em) {
+  .diet-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .diets {
+    text-align: left;
   }
 }
