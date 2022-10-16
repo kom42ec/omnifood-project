@@ -391,7 +391,9 @@
     right: 5%;
     animation: scaleUp 4s ease-in-out infinite;
   }
-
+  .diets {
+    text-align: left;
+  }
   .diet-list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -400,8 +402,5 @@
 @media (max-width: 22.5em) {
   .diet-list {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .diets {
-    text-align: left;
   }
 }
