@@ -430,14 +430,10 @@ Big: 18px
   font-size: 1.8rem;
 }
 
-.diets {
-  order: -1;
-}
-
 .meal-grid {
   display: grid;
   column-gap: 6.4rem;
-  grid-template-columns: 3fr 9fr;
+  grid-template-columns: 1fr;
 }
 
 .meal-columns {
@@ -465,6 +461,18 @@ Big: 18px
 
 .meal-columns::-webkit-scrollbar-track {
   background: var(--tint-color);
+}
+
+.diets {
+  margin-top: 9.6rem;
+  text-align: center;
+}
+
+.diet-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  gap: 1.6rem;
 }
 
 /*******************************************/
