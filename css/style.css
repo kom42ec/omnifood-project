@@ -490,6 +490,11 @@ Big: 18px
   color: #fff;
 }
 
+.meal-order:hover,
+.meal-order:active {
+  background-color: var(--shade-color);
+}
+
 .link-order {
   background-color: var(--tint-color);
   display: flex;
