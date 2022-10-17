@@ -172,7 +172,6 @@ Big: 18px
 
 .hero-img-box {
   position: relative;
-
   padding-top: 100%;
 }
 
@@ -198,26 +197,6 @@ Big: 18px
   bottom: -2%;
   right: 0%;
   animation: scaleUp 4s ease-in-out infinite;
-}
-
-.small-text {
-  background-color: #fff;
-  line-height: 1.3;
-  padding: 0.6rem 1.2rem;
-  border-radius: 9px;
-  font-weight: 400;
-  font-size: 1.6rem;
-  position: absolute;
-  animation: scaleUp 2s ease-in-out infinite;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-}
-.cook {
-  top: 70px;
-  left: -20px;
-}
-.eat {
-  top: 230px;
-  right: -30px;
 }
 
 /* Delivered meals component */
