@@ -73,8 +73,8 @@ Default: 9px
   --tint-color: #e9f9ef;
   --shade-color: #1fb155;
   --dark-green: #0a3b1c;
-  /* --dark-gray: #374151; */
-  --dark-gray: #1f2937;
+  --dark-gray: #374151;
+  /* --dark-gray: #1f2937; */
   /* --light-gray: #6b7280; */
   --light-gray: #4b5563;
 }
@@ -89,6 +89,7 @@ html {
 
 body {
   font-family: "Rubik", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1;
   font-weight: 400;
   color: var(--light-gray);
