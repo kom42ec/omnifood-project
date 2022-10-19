@@ -14,22 +14,23 @@
     <!-- queries.CSS linked -->
     <link rel="stylesheet" href="css/queries.css" />
 
-    <title>Omnifood</title>
+    <title>Omnifood &mdash; Never cook again!</title>
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
-      <!-- <img src="img/omnifood-logo.png" class="logo" alt="Omnifood logo" /> -->
       <a href="/index.html">
         <p class="logo-text">OMNI<span>FOOD</span></p>
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -53,10 +54,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="btn btn--full margin-right-sm"
+            <a href="#cta" class="btn btn--full margin-right-sm"
               >Start eating well</a
             >
-            <a href="#" class="btn btn--outline">Learn more &darr;</a>
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
 
             <!-- Delivered meals component -->
             <div class="delivered-meals">
@@ -114,7 +115,7 @@
       </section>
 
       <!-- HOW IT WORKS SECTION -->
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container center-text">
           <!-- Section heading -->
           <span class="subheading">How it works</span>
@@ -191,7 +192,7 @@
 
       <!-- MEALS SECTION -->
 
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container center-text">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -603,7 +604,7 @@
 
       <!-- TESTIMONIALS SECTION -->
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <!-- Section heading -->
           <span class="subheading">Testimonials</span>
@@ -711,7 +712,7 @@
 
       <!-- PRICING SECTION -->
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <!-- Pricing headline -->
         <div class="container center-text">
           <span class="subheading">Pricing</span>
@@ -841,7 +842,7 @@
 
       <!-- CTA SECTION -->
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -898,6 +899,7 @@
         </div>
       </section>
     </main>
+
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container grid grid--5--cols">
@@ -968,7 +970,6 @@
     </footer>
 
     <!-- ION ICONS -->
-
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -978,6 +979,7 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
+    <!-- JAVASCRIPT FILE -->
     <script src="js/script.js"></script>
   </body>
 </html>
