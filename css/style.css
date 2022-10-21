@@ -265,14 +265,6 @@ Big: 18px
   color: #888;
 }
 
-/* .logos {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 2rem;
-} */
-
 .logos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
