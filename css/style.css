@@ -253,7 +253,7 @@ Big: 18px
 /* FEATURED IN */
 /********************************************/
 .section-featured {
-  padding: 4.8rem 0 3.2rem 0;
+  padding: 3.2rem 0 3.2rem 0;
 }
 
 .heading-featured-in {
@@ -261,15 +261,23 @@ Big: 18px
   text-transform: uppercase;
   letter-spacing: 0.75px;
   font-weight: 500;
-  text-align: center;
 
   color: #888;
 }
 
-.logos {
+/* .logos {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+} */
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 
 .logos img {

@@ -130,9 +130,9 @@
     margin-top: 4.4rem;
   }
 
-  .logos img {
-    font-size: 2rem;
-    height: 2rem;
+  .logos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4rem;
   }
 
   .pricing-plan {
@@ -285,11 +285,6 @@
     grid-column: span 3;
   }
 
-  .logos img {
-    font-size: 1.6rem;
-    height: 1.6rem;
-  }
-
   .hero-text-box {
     padding: 0 4rem;
   }
@@ -304,10 +299,6 @@
 
   .testimonials-container {
     padding: 2.4rem 3rem;
-  }
-
-  .section-featured {
-    display: none;
   }
 
   .step-img-box:nth-child(2) {
@@ -400,11 +391,22 @@
   .diet-list {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
+/*******************************************/
+/* BELOW 360px (Mobile Phones) */
+/********************************************/
 @media (max-width: 22.5em) {
   .diet-list {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .logos img {
+    height: 1.8rem;
   }
 }
 
