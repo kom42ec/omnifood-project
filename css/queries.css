@@ -132,7 +132,7 @@
 
   .logos {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.4rem;
+    row-gap: 3.2rem;
   }
 
   .pricing-plan {
@@ -407,6 +407,10 @@
 
   .logos img {
     height: 1.8rem;
+  }
+
+  .section-featured .container {
+    padding: 0 1.6rem;
   }
 }
 
