@@ -116,9 +116,13 @@ element {
 
 ## Useful resources
 
-- Scrolling Card Component
+### Scrolling Card Component
 
 I have used this [article](https://webdesign.tutsplus.com/tutorials/horizontal-scrolling-card-ui-flexbox-and-css-grid--cms-41922) to learn how to create the scrolling card component with CSS grid for the "Meals" section.
+
+### ScaleUp Food Images
+
+Totally stole the idea for the hero section from [Foodhub website](https://codewithsadee.github.io/foodhub-restaurant-website/).
 
 ## Author
 
