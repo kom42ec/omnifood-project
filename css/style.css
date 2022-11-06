@@ -484,17 +484,13 @@ Big: 18px
   padding: 1.6rem 2.4rem;
   background-color: var(--primary-color);
   color: #fff;
+  border-radius: 9px;
+  margin-top: 3.2rem;
 }
 
 .meal-order:hover,
 .meal-order:active {
   background-color: var(--shade-color);
-}
-
-.link-order {
-  background-color: var(--tint-color);
-  display: flex;
-  justify-content: flex-end;
 }
 
 /*******************************************/
