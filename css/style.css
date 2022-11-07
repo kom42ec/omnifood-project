@@ -748,9 +748,6 @@ Big: 18px
   color: #91e2af;
 }
 
-.cta-form select {
-}
-
 .cta-form button {
   background-color: var(--dark-green);
   color: var(--tint-color);
