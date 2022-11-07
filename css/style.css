@@ -545,6 +545,7 @@ Big: 18px
 }
 .gallery-item {
   overflow: hidden;
+  border-radius: 9px;
 }
 .gallery-item img {
   display: block;
