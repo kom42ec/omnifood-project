@@ -480,12 +480,15 @@ Big: 18px
   cursor: pointer;
   align-items: center;
   gap: 0.4rem;
-  font-size: 1.8rem;
-  padding: 1.6rem 2.4rem;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
   background-color: var(--primary-color);
   color: #fff;
   border-radius: 9px;
-  margin-top: 3.2rem;
+  margin-top: 4.8rem;
+  font-weight: 600;
+  border: none;
+  transition: all 0.3s;
 }
 
 .meal-order:hover,
